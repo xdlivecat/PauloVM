@@ -6,7 +6,7 @@ This repository contains full source code, issue tracking, contibutions and inst
 
 Prebuilt releases of the app can be found on Google Play:
 
-<a href='https://play.google.com/store/apps/details?id=com.embotic.nodes&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=com.embotic.nodes&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>width="500" height="500"</a>
 
 or on the Releases tab of this repository.
 
@@ -26,3 +26,6 @@ If you wish to build the app for yourself and use it on your own device follow t
 2. Make changes to the code as you wish
 3. In Android Studio, click Build > Build Bundle(s) / APK(s) > Build APK(s)
 4. Install the APK to your device as you normally do.
+
+
+*Google Play and the Google Play logo are trademarks of Google LLC.*
