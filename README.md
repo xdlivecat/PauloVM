@@ -29,4 +29,4 @@ If you wish to build the app for yourself and use it on your own device follow t
 
 # Legal disclaimer
 
-*Google Play and the Google Play logo are trademarks of Google LLC.* Embotic is owned by @superevilluke. This app is licensed under the MIT License.
+*Google Play and the Google Play logo are trademarks of Google LLC.* Embotic is owned by @superevilluke. This app is licensed under the MIT License. Please read the *LICENSE* file for further information.
