@@ -27,5 +27,6 @@ If you wish to build the app for yourself and use it on your own device follow t
 3. In Android Studio, click Build > Build Bundle(s) / APK(s) > Build APK(s)
 4. Install the APK to your device as you normally do.
 
+# Legal disclaimer
 
-*Google Play and the Google Play logo are trademarks of Google LLC.*
+*Google Play and the Google Play logo are trademarks of Google LLC.* Embotic is owned by @superevilluke. This app is licensed under the MIT License.
