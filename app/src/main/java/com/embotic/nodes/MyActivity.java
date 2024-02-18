@@ -28,6 +28,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.PopupMenu;
 import android.widget.Toast;
@@ -39,9 +40,9 @@ import java.util.Arrays;
  * Main Activity. Inflates main activity xml and child fragments.
  */
 public class MyActivity extends AppCompatActivity {
-    @Override
-
+    private Button button2;
     // xDLiveRBLX was here
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
@@ -60,6 +61,15 @@ public class MyActivity extends AppCompatActivity {
         webView.setWebChromeClient(new WebChromeClient());
         WebSettings webSettings=webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
+        button2 = findViewById(R.id.button2);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                webView.reload();
+            }
+        });
     }
     public class mywebClient extends WebViewClient {
         @Override
