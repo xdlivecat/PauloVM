@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.embotic.nodes.MyActivity"
+            android:name="com.embotic.nodes.MainActivity"
             android:exported="true">
         </activity>
     </application>

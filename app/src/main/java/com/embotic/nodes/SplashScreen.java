@@ -47,7 +47,7 @@ public class SplashScreen extends AppCompatActivity {
 
     private void goToMainActivity() {
         stopLoadingAnimation();
-        Intent intent = new Intent(this, MyActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();
     }
