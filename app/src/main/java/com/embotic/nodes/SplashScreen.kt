@@ -11,8 +11,8 @@ import com.embotic.nodes.R
 
 class SplashScreen : AppCompatActivity() {
 
-    private lateinit var progressBar: ProgressBar
-    private lateinit var textViewLoading: TextView
+    lateinit var progressBar: ProgressBar
+    lateinit var textViewLoading: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
