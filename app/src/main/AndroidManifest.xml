@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.embotic.nodes.SplashScreen"
+            android:name="SplashScreen"
             android:label="@string/app_name"
             android:exported="true">
             <intent-filter>
